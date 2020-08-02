@@ -3,8 +3,7 @@ body{
 }
 
 .vertical{
-  height: 50px!important;
-  width: 115px!important;
+  width: 160px!important;
   padding: 30px 0 30px !important;
   vertical-align: middle!important;
   font-size: 15px!important;
@@ -22,7 +21,7 @@ body{
 
 .horizontal{
   width: 115px!important;
-  padding: 30px 0 30px !important;
+  padding: 15px 0!important;
   vertical-align: middle!important;
   font-size: 15px!important;
   font-family: monospace!important;
@@ -35,6 +34,11 @@ body{
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+}
+
+.card img {
+  border: 5px solid #ffff;
+  border-radius: 9px;
 }
 
 .card .pin {
@@ -53,9 +57,11 @@ body{
 .resizeText{
   font-size: 1.2em!important;
   color: #353535!important;
+  text-align: justify !important;
 
 }
 
+/* hide modal */
 .card .playMediaBtn {
     background: #f9f9f9!important;
 }
@@ -75,12 +81,13 @@ body{
   padding: 21px 23px!important;
   width: 80px!important;
   height: 80px!important;
-  -webkit-box-shadow: 2px 2px 4px 1px #959595!important;
-          box-shadow: 2px 2px 4px 1px #959595!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
   font-size: 30px!important;
   border: 2px solid #3b533d!important;
   margin: 5px 10px!important;
 }
+
 #checkSolutionBtn:hover{
   background: #b0e4b4!important;
   color: #3b533d!important;
@@ -107,14 +114,17 @@ body{
   -webkit-box-shadow:none !important;
           box-shadow:none !important;
 }
+
 #AppClientTaskPanel p{
   margin: 0 0 15px !important;
   color: #2f2f2f!important;
 }
+
 #AppClientTaskPanel div{
   color: #4c4c4c!important;
   text-align: justify!important;
 }
+
 #AppClientTaskPanel div button{
   font-size: 120%!important;
   width: 100%!important;
@@ -127,9 +137,11 @@ body{
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
+
 #AppClientTaskPanel div button:hover{
   opacity: 0.5!important;       
 }
+
 .example {
     display: -ms-grid;
     display: grid;
