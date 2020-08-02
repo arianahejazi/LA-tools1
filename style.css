@@ -5,7 +5,7 @@ body{
 .card{
   height: 50px!important;
   width: 115px !important;
-  padding: 25px 0 40px !important;
+  padding: 20px 0 40px !important;
   vertical-align: middle !important;
   font-size: 15px!important;
   font-family: monospace!important;
@@ -21,6 +21,24 @@ body{
 
 .card .pin.orange {
   background: rgb(255, 170, 32)!important;
+}
+
+.resizeText{
+  font-size: 1.2em!important;
+  color: #353535!important;
+
+}
+
+.card .playMediaBtn {
+    background: #f9f9f9!important;
+}
+
+.modal-backdrop.in {
+  display: none!important;
+}
+
+.modal-open .modal {
+  display: none !important;
 }
 
 /* check solve button */
