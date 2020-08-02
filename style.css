@@ -74,6 +74,11 @@ body{
   display: block!important;
 }
 
+.card.wrong{
+  border: 2px solid var(--red)!important;
+  background: var(--light-red)!important;
+}
+
 /* hide modal */
 .card .playMediaBtn {
     background: var(--light-gray-10)!important;
