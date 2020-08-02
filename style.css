@@ -1,9 +1,9 @@
 :root {
   --light-tifany: #B2DFDB;
-  --light-orange:rgb(255, 170, 32);
-  --orange:rgb(255, 158, 0);
-  --light-blue:rgb(46, 128, 233);
-  --blue :  rgb(15, 108, 227);
+  --light-orange:#ffaa20;
+  --orange:#ff9e00;
+  --light-blue:#2e80e9;
+  --blue :  #0f6ce3;
   --light-gray-10: #f9f9f9;
   --light-gray: #d2d2d2;
   --gray:#959595;
