@@ -37,8 +37,8 @@ body{
 }
 
 .card img {
-  border: 5px solid #ffff;
-  border-radius: 9px;
+  border: 5px solid #ffff!important;
+  border-radius: 9px!important;
 }
 
 .card .pin {
@@ -141,7 +141,6 @@ body{
 #AppClientTaskPanel div button:hover{
   opacity: 0.5!important;       
 }
-
 .example {
     display: -ms-grid;
     display: grid;
