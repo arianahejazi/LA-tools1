@@ -1,43 +1,52 @@
+:root {
+  --light-tifany: #B2DFDB;
+  --light-orange:rgb(255, 170, 32);
+  --orange:rgb(255, 158, 0);
+  --light-blue:rgb(46, 128, 233);
+  --blue :  rgb(15, 108, 227);
+  --light-gray-10: #f9f9f9;
+  --light-gray: #d2d2d2;
+  --gray:#959595;
+  --white : #ffffff;
+  --light-black :#353535;
+  --black: #000000;
+  --light-green:#b0e4b4;
+  --dark-green:#3b533d;
+
+}
+
 body{
-  background: #B2DFDB!important;
+  background: var(--light-tifany)!important;
+}
+.card{
+  font-family: monospace!important;
+  color: var(--light-black)!important;
+  border: 1px solid var(--light-gray)!important;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+  border-radius: 20px!important;;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  vertical-align: middle!important;
+  font-size: 15px!important;
+
 }
 
 .vertical{
   width: 160px!important;
   padding: 30px 0 30px !important;
-  vertical-align: middle!important;
-  font-size: 15px!important;
-  font-family: monospace!important;
-  color: #353535!important;
-  border: 1px solid #d2d2d2!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-  border-radius: 20px!important;;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+
 }
 
 .horizontal{
   width: 115px!important;
   padding: 15px 0!important;
-  vertical-align: middle!important;
-  font-size: 15px!important;
-  font-family: monospace!important;
-  color: #353535!important;
-  border: 1px solid #d2d2d2!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-  border-radius: 20px!important;;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
 }
 
 .card img {
-  border: 5px solid #ffff!important;
+  border: 5px solid var(--white)!important;
   border-radius: 9px!important;
 }
 
@@ -45,18 +54,18 @@ body{
   width: 17px !important;
   height: 17px !important;
   top: -7px !important;
-  background: rgb(46, 128, 233)!important;
+  background: var(--light-blue)!important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
 
 .card .pin.orange {
-  background: rgb(255, 170, 32)!important;
+  background: var(--light-orange)!important;
 }
 
 .resizeText{
   font-size: 1.2em!important;
-  color: #353535!important;
+  color: var(--light-black)!important;
   text-align: center!important;
   padding: 0 10px!important;
   display: block!important;
@@ -64,7 +73,7 @@ body{
 
 /* hide modal */
 .card .playMediaBtn {
-    background: #f9f9f9!important;
+    background: var(--light-gray-10)!important;
 }
 
 .modal-backdrop.in {
@@ -77,15 +86,15 @@ body{
 
 /* check solve button */
 #checkSolutionBtn{
-  background: #b0e4b4!important;
-  color: #3b533d!important;
+  background: var(--light-green)!important;
+  color: var(--dark-green)!important;
   padding: 21px 23px!important;
   width: 80px!important;
   height: 80px!important;
   -webkit-box-shadow: none!important;
           box-shadow: none!important;
   font-size: 30px!important;
-  border: 2px solid #3b533d!important;
+  border: 2px solid var(--dark-green)!important;
   margin: 5px 10px!important;
 }
 
@@ -95,8 +104,8 @@ body{
   padding: 21px 23px!important;
   width: 80px!important;
   height: 80px!important;
-  -webkit-box-shadow: 2px 2px 4px 1px #959595!important;
-          box-shadow: 2px 2px 4px 1px #959595!important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none!important;
   font-size: 30px!important;
   border: 2px solid #3b533d!important;
   margin: 5px 10px!important;
@@ -106,11 +115,11 @@ body{
 /* meseage */
 #AppClientTaskPanel{
   border-radius: 8px !important;
-  background-color: #ffffff!important;
-  border-top: 9px solid rgb(255, 158, 0)!important;
-  border-left: 1px solid #dddd!important;
-  border-right: 1px solid #dddd!important;
-  border-bottom: 1px solid #dddd!important;
+  background-color: var(--white)!important;
+  border-top: 9px solid var(--orange)!important;
+  border-left: 1px solid var(--light-gray)!important;
+  border-right: 1px solid var(--light-gray)!important;
+  border-bottom: 1px solid var(--light-gray)!important;
   padding: 25px!important;
   -webkit-box-shadow:none !important;
           box-shadow:none !important;
@@ -118,11 +127,11 @@ body{
 
 #AppClientTaskPanel p{
   margin: 0 0 15px !important;
-  color: #2f2f2f!important;
+  color: var(--light-black)!important;
 }
 
 #AppClientTaskPanel div{
-  color: #4c4c4c!important;
+  color: var(--light-black)!important;
   text-align: justify!important;
 }
 
@@ -132,8 +141,8 @@ body{
   margin: 25px 0 0!important;
   padding: 5px!important;
   border: none!important;
-  color: #fff!important;
-  background: rgb(15, 108, 227);
+  color: var(--white)!important;
+  background: var(--blue);
   border-radius: 20px!important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -142,6 +151,7 @@ body{
 #AppClientTaskPanel div button:hover{
   opacity: 0.5!important;       
 }
+
 .example {
     display: -ms-grid;
     display: grid;
@@ -152,7 +162,7 @@ body{
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-    background: -o-linear-gradient(top, white, black);
-    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
-    background: linear-gradient(to bottom, white, black);
+    background: -o-linear-gradient(top, var(--white),var(--black));
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--white),var(--black)));
+    background: linear-gradient(to bottom, var(--white),var(--black));
 }
