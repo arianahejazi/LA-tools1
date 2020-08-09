@@ -19,10 +19,10 @@
     }
     
     body{
+        font-family: sans-serif !important;
         background: var(--light-gray-10)!important;
     }
     .card{
-        font-family: monospace!important;
         color: var(--light-black)!important;
         border: 1px solid var(--light-gray)!important;
         -webkit-box-shadow: none!important;
