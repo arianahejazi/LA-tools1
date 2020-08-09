@@ -78,6 +78,11 @@
         border: 2px solid var(--red)!important;
         background: var(--light-red)!important;
     }
+
+    .card.correct {
+        border: 2px solid var(--light-green)!important;
+        
+    }
     
     /* hide modal */
     .card .playMediaBtn {
